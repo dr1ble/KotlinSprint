@@ -6,4 +6,5 @@ fun main(){
     val totalMinutes = totalSeconds % 3600 / 60
     val lastSeconds = totalSeconds % 60
     println(String.format("%02d:%02d:%02d", totalHours, totalMinutes, lastSeconds))
+
 }
