@@ -8,7 +8,7 @@ fun main() {
 
     val regularWorkersSalaries = workersQuantity * workerSalary
     val totalSpendsOnSalaries = regularWorkersSalaries + traineeQuantity * traineeSalary
-    val avgSalariyOnPerson = totalSpendsOnSalaries / workersQuantity + traineeQuantity
+    val avgSalariyOnPerson = totalSpendsOnSalaries / (workersQuantity + traineeQuantity)
 
     println(regularWorkersSalaries)
     println(totalSpendsOnSalaries)
