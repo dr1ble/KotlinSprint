@@ -1,6 +1,6 @@
 package org.example.lesson_2
 
-fun main(){
+fun main() {
     val mark1 = 3.0
     val mark2 = 4.0
     val mark3 = 3.0
