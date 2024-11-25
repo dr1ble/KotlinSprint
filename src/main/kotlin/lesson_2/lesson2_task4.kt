@@ -3,10 +3,12 @@ package org.example.lesson_2
 fun main() {
     val crystalOreCount = 7
     val ironOreCount = 11
-    val increaseBuff = 1.2
+    val increaseBuff = 20
+    val harvestRate = 100
+    val totalPercentage = 100
 
-    val bonusCrystalOreCount = (crystalOreCount * increaseBuff).toInt() - crystalOreCount
-    val bonusIronOreCount = (ironOreCount * increaseBuff).toInt() - ironOreCount
+    val bonusCrystalOreCount = (crystalOreCount * (harvestRate + increaseBuff)/totalPercentage) - crystalOreCount
+    val bonusIronOreCount = (ironOreCount * (harvestRate + increaseBuff)/totalPercentage) - ironOreCount
 
     println("Bonus crystal ore: $bonusCrystalOreCount")
     println("Bonus iron ore: $bonusIronOreCount")
