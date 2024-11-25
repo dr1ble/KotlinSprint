@@ -8,7 +8,6 @@ fun main() {
     val minutesInHour = 60
 
     val totalTravelTime = departureHour * minutesInHour + departureMinute + travelTime
-
     val arriveHour = totalTravelTime / minutesInHour
     val arriveMinute = totalTravelTime % minutesInHour
 
