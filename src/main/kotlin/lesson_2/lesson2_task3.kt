@@ -12,5 +12,5 @@ fun main() {
     val arriveHour = totalTravelTime / minutesInHour
     val arriveMinute = totalTravelTime % minutesInHour
 
-    println("Arrive Time: $arriveHour:$arriveMinute")
+    println("Arrive Time: " + String.format("%02d:%02d", arriveHour, arriveMinute))
 }
